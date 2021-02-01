@@ -1,0 +1,32 @@
+{
+	"OK": {
+		"error": false,
+		"code": "00",
+		"name": "OK",
+		"status": 200,
+		"from": "",
+		"info": {},
+		"message": "Success!",
+		"data": []
+    },
+    "INVALID": {
+		"error": true,
+		"code": "-02",
+		"name": "INVALID_REQUEST",
+		"status": 400,
+		"from": "",
+		"info": {},
+		"message": "Invalid Request!",
+		"data": {}
+	},
+	"ERR": {
+		"error": true,
+		"code": "-01",
+		"name": "ERR",
+		"status": 500,
+		"from": "",
+		"info": {},
+		"message": "Failed!",
+		"data": {}
+	}
+}
